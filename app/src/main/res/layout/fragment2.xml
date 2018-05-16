@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26537e"
+    android:orientation="vertical"
+    tools:context="com.example.yangli.test1.MainActivity">
+
+    <TextView
+        android:id="@+id/f2_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="25dp"
+        android:text="请输入："
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/f2_text_1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/f2_text"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:background="@xml/text" />
+
+    <Button
+        android:id="@+id/f2_but1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/f2_text_1"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="75dp"
+        android:background="@xml/button"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+</RelativeLayout>

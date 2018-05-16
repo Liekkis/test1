@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#26537e"
+    android:orientation="vertical"
+    tools:context="com.example.yangli.test1.MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="50dp"
+        android:text="用户输入的文字是："
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:background="@xml/text" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_1"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="50dp"
+        android:background="@xml/button"
+        android:gravity="center"
+        android:text="输入文字"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/but1"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="20dp"
+        android:background="@xml/button"
+        android:text="选择文字"
+        android:textColor="#000000"
+        android:textSize="28sp" />
+</RelativeLayout>
